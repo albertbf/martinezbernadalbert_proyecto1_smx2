@@ -1,56 +1,7 @@
-<!DOCTYPE html>
-<html lang="ca">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alcohol</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            text-align: center;
-        }
-        header {
-            background-color: #007acc;
-            color: white;
-            padding: 20px 10px;
-        }
-        .logo {
-            width: 100px;
-            height: auto;
-        }
-        main {
-            padding: 20px;
-        }
-        video {
-            max-width: 100%;
-            height: auto;
-            margin: 20px 0;
-            border: 2px solid #007acc;
-        }
-        iframe {
-            width: 80%;
-            height: 315px;
-            border: 2px solid #007acc;
-            margin: 20px 0;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <!-- Nom i logotip en format SVG -->
-    <h1>Albert Martinez Bernad</h1>
-    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="500.000000pt" height="500.000000pt" viewBox="0 0 500.000000 500.000000"
  preserveAspectRatio="xMidYMid meet">
 
@@ -209,37 +160,3 @@ m-566 -3 c0 -5 -8 -10 -17 -11 -14 0 -12 -3 5 -10 34 -13 24 -41 -22 -58 -37
 -14 3 -19 3 -12 0z"/>
 </g>
 </svg>
-</header>
-
-<main>
-    <!-- Títol del vídeo -->
-    <h2>Víctor, un enfermo de alcohol. La dramática historia de una adicción.</h2>
-
-    <!-- Vídeo incrustat amb iframe -->
-    <iframe src="https://www.youtube.com/watch?v=UdlAoGRQQsM" title="Vídeo favorit" allowfullscreen></iframe>
-
-    <!-- Vídeo en HTML5 -->
-    <h3>Reprodueix el vídeo aquí:</h3>
-    <video controls>
-        <source src="video-exemple.mp4" type="video/mp4">
-        <source src="video-exemple.webm" type="video/webm">
-        El teu navegador no suporta la reproducció de vídeo.
-    </video>
-
-    <!-- Cançó de fons -->
-    <h3>Cançó de fons:</h3>
-    <audio controls autoplay loop>
-        <source src="canco-de-fons.mp3" type="audio/mpeg">
-        <source src="canco-de-fons.ogg" type="audio/ogg">
-        El teu navegador no suporta la reproducció d'àudio.
-    </audio>
-
-    <p><em>Orígen de la cançó:</em> Aquesta cançó és de domini públic i es pot trobar a la plataforma <a href="https://freemusicarchive.org/" target="_blank">Free Music Archive</a>.</p>
-</main>
-
-<footer>
-    <p>&copy; 2025 - El meu projecte web</p>
-</footer>
-
-</body>
-</html>
